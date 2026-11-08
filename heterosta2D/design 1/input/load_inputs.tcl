@@ -1,0 +1,16 @@
+# Source this file from OpenSTA after starting a fresh session.
+set bundle_dir [file dirname [file normalize [info script]]]
+read_liberty -min [file join $bundle_dir early_asap7sc7p5t_AO_RVT_FF_nldm_211120.lib]
+read_liberty -min [file join $bundle_dir early_asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib]
+read_liberty -min [file join $bundle_dir early_asap7sc7p5t_OA_RVT_FF_nldm_211120.lib]
+read_liberty -min [file join $bundle_dir early_asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib]
+read_liberty -min [file join $bundle_dir early_asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib]
+read_liberty -max [file join $bundle_dir late_asap7sc7p5t_AO_RVT_SS_nldm_211120.lib]
+read_liberty -max [file join $bundle_dir late_asap7sc7p5t_INVBUF_RVT_SS_nldm_220122.lib]
+read_liberty -max [file join $bundle_dir late_asap7sc7p5t_OA_RVT_SS_nldm_211120.lib]
+read_liberty -max [file join $bundle_dir late_asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib]
+read_liberty -max [file join $bundle_dir late_asap7sc7p5t_SIMPLE_RVT_SS_nldm_211120.lib]
+read_verilog [file join $bundle_dir design.v]
+link_design tpu
+read_sdc [file join $bundle_dir design.sdc]
+read_spef [file join $bundle_dir design.spef]

@@ -1,0 +1,107 @@
+{
+  "design": "tpu",
+  "created_utc": "2026-11-07T11:40:27.811261+00:00",
+  "files": {
+    "design.v": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/delivery/results/6_final.v",
+      "bytes": 11974966,
+      "sha256": "4d114dbad5a0caf1e447af9367b97a4daca25b3371d1b5af20fff7b2c9ae5fa9"
+    },
+    "design.sdc": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/delivery/results/6_final.sdc",
+      "bytes": 111534,
+      "sha256": "95ddf37dc1c298aa740369f2a628756beed696fdfd9367bab862861093bbc0b7"
+    },
+    "design.spef": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/delivery/results/6_final.spef",
+      "bytes": 383624640,
+      "sha256": "9f149d46670e8b47e72b643e86ce3a670e6764c93a5893832f4e4b7586fbd9e1"
+    },
+    "early_asap7sc7p5t_AO_RVT_FF_nldm_211120.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_FF_nldm_211120.lib.gz",
+      "bytes": 22101389,
+      "sha256": "e6a397c74d65b9e4f30128663e588bcf1192f680c3e86d01da34a328041d85b3",
+      "decompressed": true
+    },
+    "early_asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib.gz",
+      "bytes": 306563,
+      "sha256": "806848fed619856aa96f4965a2e6cc3d5a3b9bb39494bbdad5abd0cc6219ea26",
+      "decompressed": true
+    },
+    "early_asap7sc7p5t_OA_RVT_FF_nldm_211120.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_FF_nldm_211120.lib.gz",
+      "bytes": 19878242,
+      "sha256": "13b59dfb321f154bc36f1b95b3942907176b01a0a951cac34a9dcd9c30a91a60",
+      "decompressed": true
+    },
+    "early_asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib",
+      "bytes": 1510915,
+      "sha256": "d9b6e75c8720cdd450cff15178528502cc8df34c5ab6b0ffb53fc99d664b5302",
+      "decompressed": false
+    },
+    "early_asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib.gz",
+      "bytes": 1688715,
+      "sha256": "8b8959a1e5a0ab6cd5cc001d23abcda45fac637fa8f160831beca81abf0a80bb",
+      "decompressed": true
+    },
+    "late_asap7sc7p5t_AO_RVT_SS_nldm_211120.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_AO_RVT_SS_nldm_211120.lib.gz",
+      "bytes": 22195817,
+      "sha256": "55584f8ac4910eefdbaf0183b021681cd87b3b9d62a62d6f802a601e79002df9",
+      "decompressed": true
+    },
+    "late_asap7sc7p5t_INVBUF_RVT_SS_nldm_220122.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_INVBUF_RVT_SS_nldm_220122.lib.gz",
+      "bytes": 309062,
+      "sha256": "971247fdbb98c969300444c440ce5a5f3bc64a17c402e2025cf09c87908e97c0",
+      "decompressed": true
+    },
+    "late_asap7sc7p5t_OA_RVT_SS_nldm_211120.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_OA_RVT_SS_nldm_211120.lib.gz",
+      "bytes": 19972256,
+      "sha256": "bf962aaa931b8bfeb8133719db6f6da0dde86fb373dd03629bf492f33f75c649",
+      "decompressed": true
+    },
+    "late_asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib",
+      "bytes": 1513373,
+      "sha256": "c6a6d9ad22bfb1bc9cf1c4ac66d09ce575ca18648ce4e50597d92174bc290d78",
+      "decompressed": false
+    },
+    "late_asap7sc7p5t_SIMPLE_RVT_SS_nldm_211120.lib": {
+      "source": "/home/jishnu/tiny-tpu-1ghz/tools/flow/platforms/asap7/lib/NLDM/asap7sc7p5t_SIMPLE_RVT_SS_nldm_211120.lib.gz",
+      "bytes": 2306707,
+      "sha256": "29f2d9c5153299a3907df523633bb84fda8f291d90b3b0058d22ed5d67e719ee",
+      "decompressed": true
+    }
+  },
+  "libraries": {
+    "early": {
+      "corner": "FF",
+      "files": [
+        "early_asap7sc7p5t_AO_RVT_FF_nldm_211120.lib",
+        "early_asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib",
+        "early_asap7sc7p5t_OA_RVT_FF_nldm_211120.lib",
+        "early_asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib",
+        "early_asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib"
+      ],
+      "netlist_cell_types": 83,
+      "missing_cell_types": []
+    },
+    "late": {
+      "corner": "SS",
+      "files": [
+        "late_asap7sc7p5t_AO_RVT_SS_nldm_211120.lib",
+        "late_asap7sc7p5t_INVBUF_RVT_SS_nldm_220122.lib",
+        "late_asap7sc7p5t_OA_RVT_SS_nldm_211120.lib",
+        "late_asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib",
+        "late_asap7sc7p5t_SIMPLE_RVT_SS_nldm_211120.lib"
+      ],
+      "netlist_cell_types": 83,
+      "missing_cell_types": []
+    }
+  }
+}

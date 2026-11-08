@@ -1,0 +1,58 @@
+HeteroSTA license granted to Jishnu Madav (jishnumadav.231ec221@nitk.edu.in). Expires on 2027/01/07 04:07.
+Not for commercial use.
+Loading early_asap7sc7p5t_AO_RVT_FF_nldm_211120.lib
+(LIBUNPARSE) 14 unparsed library-wise items: {"comment", "date", "revision", "delay_model", "voltage_map", "default_fanout_load", "in_place_swap_mode", "nom_process", "nom_temperature", "nom_voltage", "operating_conditions", "default_operating_conditions", "input_voltage", "output_voltage"}
+(LIBUNPARSE) 7 unparsed pin-wise items: {"power_down_function", "related_ground_pin", "related_power_pin", "output_voltage", "rise_capacitance_range", "fall_capacitance_range", "input_voltage"}
+(LIBUNPARSE) 1 unparsed timing-wise items: {"sdf_cond"}
+Loading early_asap7sc7p5t_INVBUF_RVT_FF_nldm_220122.lib
+(LIBUNPARSE) 14 unparsed library-wise items: {"comment", "date", "revision", "delay_model", "voltage_map", "default_fanout_load", "in_place_swap_mode", "nom_process", "nom_temperature", "nom_voltage", "operating_conditions", "default_operating_conditions", "input_voltage", "output_voltage"}
+(LIBUNPARSE) 7 unparsed pin-wise items: {"power_down_function", "related_ground_pin", "related_power_pin", "output_voltage", "rise_capacitance_range", "fall_capacitance_range", "input_voltage"}
+Further warn (LIBUNPARSE) will be suppressed.
+Loading early_asap7sc7p5t_OA_RVT_FF_nldm_211120.lib
+Loading early_asap7sc7p5t_SEQ_RVT_FF_nldm_220123.lib
+Loading early_asap7sc7p5t_SIMPLE_RVT_FF_nldm_211120.lib
+Loading late_asap7sc7p5t_AO_RVT_SS_nldm_211120.lib
+Loading late_asap7sc7p5t_INVBUF_RVT_SS_nldm_220122.lib
+Loading late_asap7sc7p5t_OA_RVT_SS_nldm_211120.lib
+Loading late_asap7sc7p5t_SEQ_RVT_SS_nldm_220123.lib
+Loading late_asap7sc7p5t_SIMPLE_RVT_SS_nldm_211120.lib
+(HETEROSTA_RD_SIZE) num cells = 104947
+(HETEROSTA_RD_SIZE) num nets = 108754
+(HETEROSTA_RD_SIZE) num pins = 383316
+(SPEF_FLAT_COUPL) net _054366_ has 8 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net _054367_ has 8 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net _054368_ has 3 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net _054369_ has 5 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net _054370_ has 7 foreign coupling keys. w/o SI, turned to grounded caps.
+Further info (SPEF_FLAT_COUPL) will be suppressed.
+(HETEROSTA_RD_SIZE) num RC nodes = 1788394
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: non_seq_hold_rising
+Further warn (LIB_FLATTEN_TIMING_UNK) will be suppressed.
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+Further warn (LIB_FLATTEN_PINDIRECT_UNK) will be suppressed.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["asap7sc7p5t_AO_RVT_FF_nldm_211120", "asap7sc7p5t_INVBUF_RVT_FF_nldm_211120", "asap7sc7p5t_OA_RVT_FF_nldm_211120", "asap7sc7p5t_SEQ_RVT_FF_nldm_220123", "asap7sc7p5t_SIMPLE_RVT_FF_nldm_250407"] to 5341680 bytes of LUT, 202 cell types, 5160 timing arcs, 264 constraint arcs, 912 pin types.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["asap7sc7p5t_AO_RVT_SS_nldm_211120", "asap7sc7p5t_INVBUF_RVT_SS_nldm_211120", "asap7sc7p5t_OA_RVT_SS_nldm_211120", "asap7sc7p5t_SEQ_RVT_SS_nldm_220123", "asap7sc7p5t_SIMPLE_RVT_SS_nldm_211120"] to 5327568 bytes of LUT, 202 cell types, 5146 timing arcs, 264 constraint arcs, 912 pin types.
+(STA_LVL_DEAD_PIN) There are 10 dead pin(s) in design (with neither inputs nor outputs).
+build_tag_graph num_inputs 294
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~748942 tags (0.976925/pin rf) and 1111530 edges.
+num edges: 1111530
+unique tags: 2
+tag pin maps: 748942
+build_tag_graph num_inputs 294
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~748942 tags (0.976925/pin rf) and 1111530 edges.
+num edges: 1111530
+unique tags: 2
+tag pin maps: 748942
+Setup WNS: -1250.59
+Setup TNS: -1.61033e+06
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to results/heterosta/output.rpt for the MAX corner
+Reports written under results/heterosta/.
