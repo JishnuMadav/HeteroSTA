@@ -1,0 +1,30 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/jishnu/heterosta_large2d/runs/IP111/resources.txt",
+    "/home/jishnu/heterosta_large2d/bin/run_2d",
+    "/home/jishnu/heterosta_large2d/inputs/IP111",
+    "/home/jishnu/heterosta_large2d/inputs/IP111/libraries.txt",
+    "black_parrot",
+    "/home/jishnu/heterosta_large2d/runs/IP111"
+  ],
+  "returncode": 0,
+  "wall_seconds": 22.00302066002041,
+  "completed_utc": "2026-11-08T13:02:35.209145+00:00",
+  "sha256": {
+    "inputs/IP111/design.v": "60e5e5b270498cd2287b37ee4091dd1f16bf7e6d5612a2268ccda41b209c99ac",
+    "inputs/IP111/design.sdc": "4e7fee2d69eb8d6e736297d5368a8fddbf2af58307edeaeb9981e17580aeaae7",
+    "inputs/IP111/design.spef": "72323b6c8dad9f0b222958656732f72ed64efd2945c85ef3f2ee0ae072e71fd9",
+    "bin/run_2d": "bda6e146296d94b4d2b179a97cd39c98fda9a9b9a13b0bbeb32dfd8d1837da8d",
+    "/home/jishnu/heterosta/lib/libheterosta.cpu.so": "3ef50c9b15fe1da2758ef304da8126665fda4dedefafc2dce406294437370142",
+    "/home/jishnu/heterosta_benchmarks/sources/archgen/IPs/IP-PD/_shared/recovery/technology/nangate.lib": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_256x95.lib": "a8bb6321ca273617790a2ea3d024c04ae7013351b010012b00c08cddffab0cc7",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_512x64.lib": "52bec9c35e3ed922459e336aa0e3f9a9e90c1caff6a6d9fff1743902e00e5dce",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_64x15.lib": "ad3f23637f276d65f8e2b44037a89feee8c4970b866492da8e6150395e6ef5f9",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_64x7.lib": "ba1159fae40f3a57bc261eca0225c2a0453edf911e8a66a427c395dffe84dfe7",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_64x96.lib": "86fa0230648545219a13bf78e1d9a03892d21f953d63e1702df5beb35417456e"
+  },
+  "threads": 8
+}

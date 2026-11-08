@@ -1,0 +1,26 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/jishnu/heterosta_large2d/runs/IP109/resources.txt",
+    "/home/jishnu/heterosta_large2d/bin/run_2d",
+    "/home/jishnu/heterosta_large2d/inputs/IP109",
+    "/home/jishnu/heterosta_large2d/inputs/IP109/libraries.txt",
+    "ariane",
+    "/home/jishnu/heterosta_large2d/runs/IP109"
+  ],
+  "returncode": 0,
+  "wall_seconds": 17.324222501832992,
+  "completed_utc": "2026-11-08T13:01:06.316101+00:00",
+  "sha256": {
+    "inputs/IP109/design.v": "d406b702a3801935e6ed25e594c440abccd2ca8a8f64e5e8accb0296bfbd4177",
+    "inputs/IP109/design.sdc": "2d303eeafc8988097d83f91bd68fcdc43e8b22e48462060bcef3e2d6044fa16e",
+    "inputs/IP109/design.spef": "a48c58381401403a3a953b96267691b03ee481292e3c28d5d12ba435503af6e0",
+    "bin/run_2d": "bda6e146296d94b4d2b179a97cd39c98fda9a9b9a13b0bbeb32dfd8d1837da8d",
+    "/home/jishnu/heterosta/lib/libheterosta.cpu.so": "3ef50c9b15fe1da2758ef304da8126665fda4dedefafc2dce406294437370142",
+    "/home/jishnu/heterosta_benchmarks/sources/archgen/IPs/IP-PD/_shared/recovery/technology/nangate.lib": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_256x16.lib": "1226b624618d90376b0af26ed788adcfe8e8a57e78e2c10b3583f656f7a039e0"
+  },
+  "threads": 8
+}

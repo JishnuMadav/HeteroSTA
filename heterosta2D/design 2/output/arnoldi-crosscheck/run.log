@@ -1,0 +1,262 @@
+HeteroSTA license granted to Jishnu Madav (jishnumadav.231ec221@nitk.edu.in). Expires on 2027/01/07 04:07.
+Not for commercial use.
+(LIBUNPARSE) 18 unparsed library-wise items: {"date", "revision", "comment", "technology", "delay_model", "in_place_swap_mode", "library_features", "nom_process", "nom_temperature", "nom_voltage", "voltage_map", "define", "operating_conditions", "default_operating_conditions", "default_leakage_power_density", "default_fanout_load", "wire_load", "default_wire_load"}
+(LIBUNPARSE) 1 unparsed cell-wise items: {"drive_strength"}
+(LIBUNPARSE) 3 unparsed pin-wise items: {"related_power_pin", "related_ground_pin", "nextstate_type"}
+(LIBUNPARSE) 1 unparsed timing-wise items: {"sdf_cond"}
+(LIBUNPARSE) 18 unparsed library-wise items: {"date", "revision", "comment", "technology", "delay_model", "in_place_swap_mode", "library_features", "nom_process", "nom_temperature", "nom_voltage", "voltage_map", "define", "operating_conditions", "default_operating_conditions", "default_leakage_power_density", "default_fanout_load", "wire_load", "default_wire_load"}
+Further warn (LIBUNPARSE) will be suppressed.
+(LIBPARSE_NOM_REF) Library 'fakeram45_256x16': units power is not set, using default value 1e-6 (1uW)
+(LIBPARSE_NOM_REF) Library 'fakeram45_256x16': units power is not set, using default value 1e-6 (1uW)
+(NL_SV_MOREPIN) there turns out to be more logic pin (net) than expected -- typically because there are nets undefined but used. It is not suggested to do so because this will lead to long construction time.
+(NL_SV_NETIO_UNDRIV) There are 22 nets without driving pins.
+(HETEROSTA_RD_SIZE) num cells = 171480
+(HETEROSTA_RD_SIZE) num nets = 196755
+(HETEROSTA_RD_SIZE) num pins = 634355
+(SPEF_FLAT_COUPL) net clk_i has 19 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net i_dtlb.content_q[282]/lsu_i.i_mmu/ex_stage_i has 11 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net i_dtlb.content_q[283]/lsu_i.i_mmu/ex_stage_i has 6 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net debug_req_i has 35 foreign coupling keys. w/o SI, turned to grounded caps.
+Further info (SPEF_FLAT_COUPL) will be suppressed.
+(SPEF_FLAT_COUPL) net _28693_/i_frontend has 7 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_05247_"]), None, None, None) has unexpected # of IO pins, 2 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_05248_"]), None, None, None) has unexpected # of IO pins, 2 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_05249_"]), None, None, None) has unexpected # of IO pins, 3 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_05250_"]), None, None, None) has unexpected # of IO pins, 2 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_05251_"]), None, None, None) has unexpected # of IO pins, 3 while should be 0.
+Further error (SPEF_FLAT_BAD) will be suppressed.
+(HETEROSTA_RD_SIZE) num RC nodes = 1053220
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+Further warn (LIB_FLATTEN_PINDIRECT_UNK) will be suppressed.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+Further warn (LIB_FLATTEN_TIMING_UNK) will be suppressed.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["NangateOpenCellLibrary", "fakeram45_256x16"] to 1160492 bytes of LUT, 136 cell types, 900 timing arcs, 214 constraint arcs, 600 pin types.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["NangateOpenCellLibrary", "fakeram45_256x16"] to 1160492 bytes of LUT, 136 cell types, 900 timing arcs, 214 constraint arcs, 600 pin types.
+(STA_LVL_DEAD_PIN) There are 4 dead pin(s) in design (with neither inputs nor outputs).
+[WARN] net delay calc fallback for arc 624854->499642
+[WARN] net delay calc fallback for arc 575700->581922
+[WARN] net delay calc fallback for arc 64516->627787
+[WARN] net delay calc fallback for arc 103751->103763
+[WARN] net delay calc fallback for arc 103751->103763
+[WARN] net delay calc fallback for arc 628994->580234
+[WARN] net delay calc fallback for arc 442702->446123
+[WARN] net delay calc fallback for arc 442702->446123
+[WARN] net delay calc fallback for arc 303738->303740
+[WARN] net delay calc fallback for arc 620964->158298
+[WARN] net delay calc fallback for arc 64494->99968
+[WARN] net delay calc fallback for arc 64494->99968
+[WARN] net delay calc fallback for arc 628178->328958
+[WARN] net delay calc fallback for arc 64434->101319
+[WARN] net delay calc fallback for arc 308241->308245
+[WARN] net delay calc fallback for arc 64434->101319
+[WARN] net delay calc fallback for arc 627224->135926
+[WARN] net delay calc fallback for arc 626298->329729
+[WARN] net delay calc fallback for arc 623882->331915
+[WARN] net delay calc fallback for arc 627224->135911
+[WARN] net delay calc fallback for arc 237518->237626
+[WARN] net delay calc fallback for arc 302771->361643
+[WARN] net delay calc fallback for arc 32679->627841
+[WARN] net delay calc fallback for arc 632464->416647
+[WARN] net delay calc fallback for arc 632464->416647
+[WARN] net delay calc fallback for arc 27926->58292
+[WARN] net delay calc fallback for arc 27926->58292
+[WARN] net delay calc fallback for arc 66488->91144
+[WARN] net delay calc fallback for arc 607378->560664
+[WARN] net delay calc fallback for arc 601533->540708
+[WARN] net delay calc fallback for arc 605578->555269
+[WARN] net delay calc fallback for arc 599353->532088
+[WARN] net delay calc fallback for arc 601243->539148
+[WARN] net delay calc fallback for arc 607378->560664
+[WARN] net delay calc fallback for arc 601533->540708
+[WARN] net delay calc fallback for arc 599353->532088
+[WARN] net delay calc fallback for arc 601243->539148
+[WARN] net delay calc fallback for arc 598633->526721
+[WARN] net delay calc fallback for arc 598633->526721
+[WARN] net delay calc fallback for arc 631824->17217
+[WARN] net delay calc fallback for arc 605583->555295
+[WARN] net delay calc fallback for arc 611403->570636
+[WARN] net delay calc fallback for arc 615988->51387
+[WARN] net delay calc fallback for arc 611403->570636
+[WARN] net delay calc fallback for arc 9170->10568
+[WARN] net delay calc fallback for arc 628086->429529
+[WARN] net delay calc fallback for arc 284338->248552
+[WARN] net delay calc fallback for arc 616152->379669
+[WARN] net delay calc fallback for arc 614270->459768
+[WARN] net delay calc fallback for arc 612968->527201
+[WARN] net delay calc fallback for arc 632490->55137
+[WARN] net delay calc fallback for arc 626662->261564
+[WARN] net delay calc fallback for arc 613018->561618
+[WARN] net delay calc fallback for arc 58528->49270
+[WARN] net delay calc fallback for arc 438754->9315
+[WARN] net delay calc fallback for arc 297884->368528
+[WARN] net delay calc fallback for arc 631816->17227
+[WARN] net delay calc fallback for arc 612860->560914
+[WARN] net delay calc fallback for arc 613282->549196
+[WARN] net delay calc fallback for arc 624614->3123
+[WARN] net delay calc fallback for arc 284338->248552
+[WARN] net delay calc fallback for arc 122893->77732
+[WARN] net delay calc fallback for arc 632490->55137
+[WARN] net delay calc fallback for arc 438754->9315
+[WARN] net delay calc fallback for arc 297884->368528
+[WARN] net delay calc fallback for arc 418825->422607
+[WARN] net delay calc fallback for arc 626662->261585
+[WARN] net delay calc fallback for arc 122293->72761
+[WARN] net delay calc fallback for arc 32732->44437
+[WARN] net delay calc fallback for arc 613168->548856
+[WARN] net delay calc fallback for arc 620260->113488
+[WARN] net delay calc fallback for arc 620046->355114
+[WARN] net delay calc fallback for arc 617194->424502
+[WARN] net delay calc fallback for arc 613008->566879
+[WARN] net delay calc fallback for arc 622474->362111
+[WARN] net delay calc fallback for arc 608528->495748
+[WARN] net delay calc fallback for arc 628818->45790
+[WARN] net delay calc fallback for arc 612742->556173
+[WARN] net delay calc fallback for arc 618022->43942
+[WARN] net delay calc fallback for arc 360847->361042
+[WARN] net delay calc fallback for arc 204448->184247
+[WARN] net delay calc fallback for arc 618398->2947
+[WARN] net delay calc fallback for arc 613086->539280
+[WARN] net delay calc fallback for arc 614156->53080
+[WARN] net delay calc fallback for arc 614138->449675
+[WARN] net delay calc fallback for arc 204448->184247
+[WARN] net delay calc fallback for arc 19620->28853
+[WARN] net delay calc fallback for arc 19796->29586
+[WARN] net delay calc fallback for arc 633734->484816
+[WARN] net delay calc fallback for arc 24094->30673
+[WARN] net delay calc fallback for arc 19700->31262
+[WARN] net delay calc fallback for arc 633384->405656
+[WARN] net delay calc fallback for arc 633658->204181
+[WARN] net delay calc fallback for arc 632864->217157
+[WARN] net delay calc fallback for arc 633712->224767
+[WARN] net delay calc fallback for arc 19620->28853
+[WARN] net delay calc fallback for arc 19796->29586
+[WARN] net delay calc fallback for arc 24094->30673
+[WARN] net delay calc fallback for arc 19700->31262
+[WARN] net delay calc fallback for arc 633384->405656
+[WARN] net delay calc fallback for arc 624854->499642
+[WARN] net delay calc fallback for arc 575700->581922
+[WARN] net delay calc fallback for arc 64516->627787
+[WARN] net delay calc fallback for arc 103751->103763
+[WARN] net delay calc fallback for arc 103751->103763
+[WARN] net delay calc fallback for arc 628994->580234
+[WARN] net delay calc fallback for arc 442702->446123
+[WARN] net delay calc fallback for arc 442702->446123
+[WARN] net delay calc fallback for arc 303738->303740
+[WARN] net delay calc fallback for arc 620964->158298
+[WARN] net delay calc fallback for arc 64494->99968
+[WARN] net delay calc fallback for arc 64494->99968
+[WARN] net delay calc fallback for arc 628178->328958
+[WARN] net delay calc fallback for arc 66889->71993
+[WARN] net delay calc fallback for arc 64434->101319
+[WARN] net delay calc fallback for arc 308241->308245
+[WARN] net delay calc fallback for arc 64434->101319
+[WARN] net delay calc fallback for arc 627224->135926
+[WARN] net delay calc fallback for arc 626298->329729
+[WARN] net delay calc fallback for arc 623882->331915
+[WARN] net delay calc fallback for arc 627224->135911
+[WARN] net delay calc fallback for arc 237518->237626
+[WARN] net delay calc fallback for arc 237518->237626
+[WARN] net delay calc fallback for arc 32679->627841
+[WARN] net delay calc fallback for arc 632464->416647
+[WARN] net delay calc fallback for arc 632464->416647
+[WARN] net delay calc fallback for arc 27926->58292
+[WARN] net delay calc fallback for arc 27926->58292
+[WARN] net delay calc fallback for arc 66488->91144
+[WARN] net delay calc fallback for arc 607378->560664
+[WARN] net delay calc fallback for arc 601533->540708
+[WARN] net delay calc fallback for arc 605578->555269
+[WARN] net delay calc fallback for arc 599353->532088
+[WARN] net delay calc fallback for arc 601243->539148
+[WARN] net delay calc fallback for arc 607378->560664
+[WARN] net delay calc fallback for arc 601533->540708
+[WARN] net delay calc fallback for arc 599353->532088
+[WARN] net delay calc fallback for arc 601243->539148
+[WARN] net delay calc fallback for arc 598633->526721
+[WARN] net delay calc fallback for arc 598633->526721
+[WARN] net delay calc fallback for arc 631824->17217
+[WARN] net delay calc fallback for arc 605583->555295
+[WARN] net delay calc fallback for arc 611403->570636
+[WARN] net delay calc fallback for arc 615988->51387
+[WARN] net delay calc fallback for arc 611403->570636
+[WARN] net delay calc fallback for arc 615988->51387
+[WARN] net delay calc fallback for arc 628086->429529
+[WARN] net delay calc fallback for arc 284338->248552
+[WARN] net delay calc fallback for arc 616152->379669
+[WARN] net delay calc fallback for arc 614270->459768
+[WARN] net delay calc fallback for arc 612968->527201
+[WARN] net delay calc fallback for arc 632490->55137
+[WARN] net delay calc fallback for arc 626662->261564
+[WARN] net delay calc fallback for arc 613018->561618
+[WARN] net delay calc fallback for arc 58528->49270
+[WARN] net delay calc fallback for arc 438754->9315
+[WARN] net delay calc fallback for arc 297884->368528
+[WARN] net delay calc fallback for arc 631816->17227
+[WARN] net delay calc fallback for arc 612860->560914
+[WARN] net delay calc fallback for arc 613282->549196
+[WARN] net delay calc fallback for arc 624614->3123
+[WARN] net delay calc fallback for arc 284338->248552
+[WARN] net delay calc fallback for arc 616152->379669
+[WARN] net delay calc fallback for arc 122893->77732
+[WARN] net delay calc fallback for arc 632490->55137
+[WARN] net delay calc fallback for arc 438754->9315
+[WARN] net delay calc fallback for arc 612860->560914
+[WARN] net delay calc fallback for arc 418825->422607
+[WARN] net delay calc fallback for arc 626662->261585
+[WARN] net delay calc fallback for arc 122293->72761
+[WARN] net delay calc fallback for arc 32732->44437
+[WARN] net delay calc fallback for arc 613168->548856
+[WARN] net delay calc fallback for arc 620260->113488
+[WARN] net delay calc fallback for arc 620046->355114
+[WARN] net delay calc fallback for arc 617194->424502
+[WARN] net delay calc fallback for arc 613008->566879
+[WARN] net delay calc fallback for arc 622474->362111
+[WARN] net delay calc fallback for arc 608528->495748
+[WARN] net delay calc fallback for arc 628818->45790
+[WARN] net delay calc fallback for arc 612742->556173
+[WARN] net delay calc fallback for arc 618022->43942
+[WARN] net delay calc fallback for arc 360847->361042
+[WARN] net delay calc fallback for arc 204448->184247
+[WARN] net delay calc fallback for arc 618398->2947
+[WARN] net delay calc fallback for arc 613086->539280
+[WARN] net delay calc fallback for arc 614156->53080
+[WARN] net delay calc fallback for arc 614138->449675
+[WARN] net delay calc fallback for arc 32732->44437
+[WARN] net delay calc fallback for arc 204448->184247
+[WARN] net delay calc fallback for arc 19620->28853
+[WARN] net delay calc fallback for arc 19796->29586
+[WARN] net delay calc fallback for arc 633734->484816
+[WARN] net delay calc fallback for arc 24094->30673
+[WARN] net delay calc fallback for arc 19700->31262
+[WARN] net delay calc fallback for arc 633384->405656
+[WARN] net delay calc fallback for arc 633658->204181
+[WARN] net delay calc fallback for arc 632864->217157
+[WARN] net delay calc fallback for arc 633712->224767
+[WARN] net delay calc fallback for arc 19620->28853
+[WARN] net delay calc fallback for arc 19796->29586
+[WARN] net delay calc fallback for arc 24094->30673
+[WARN] net delay calc fallback for arc 19700->31262
+[WARN] net delay calc fallback for arc 633384->405656
+build_tag_graph num_inputs 2
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~1176118 tags (0.92701876/pin rf) and 1725734 edges.
+num edges: 1725734
+unique tags: 2
+tag pin maps: 1176118
+build_tag_graph num_inputs 2
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~1176118 tags (0.92701876/pin rf) and 1725734 edges.
+num edges: 1725734
+unique tags: 2
+tag pin maps: 1176118
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to diagnostics/IP109-arnoldi/setup.rpt for the MAX corner
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to diagnostics/IP109-arnoldi/hold.rpt for the MIN corner
+Setup WNS=-61.6001 TNS=-4350.82
+Hold WNS=-1775.49 TNS=-2008.54

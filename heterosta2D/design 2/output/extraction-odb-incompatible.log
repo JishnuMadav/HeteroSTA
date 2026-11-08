@@ -1,0 +1,10 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 4 thread(s).
+Traceback (most recent call last):
+  File "/home/jishnu/heterosta_large2d/scripts/extract_case.py", line 20, in <module>
+    design.readDb(str(odbfile))
+  File "openroad.py", line 928, in readDb
+RuntimeError: incompatible database schema revision 0.141 > 0.129

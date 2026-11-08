@@ -1,0 +1,10 @@
+{
+  "archgen_repository": "https://github.com/archgen-ai/Archgen-IPs",
+  "archgen_commit": "7f35d67f63368a424dab64c236ac4d91c5219e2a",
+  "ip": "IP114",
+  "design": "bp_multi",
+  "pdb_repository": "https://github.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database",
+  "pdb_commit": "9e1e3399b1b707f26fee853bce1ff91ab466ce24",
+  "source_def_sha256": "cd187ddf61cb0df8ef3c9ec219aaae6137cb693ba1e4dd550b93bb9d42834d51",
+  "notes": "Routed DEF -> OpenRCX SPEF. Internal bus labels normalized consistently; RC payload and connectivity checks passed. Original source thermal/simulation qualification is not changed by these STA runs."
+}

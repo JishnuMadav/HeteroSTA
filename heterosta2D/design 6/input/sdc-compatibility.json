@@ -1,0 +1,8 @@
+{
+  "omitted_design_rule_checks": [
+    "set_max_transition -clock_path 0.0300 [get_clocks {clk_i}]",
+    "set_max_transition -clock_path 0.0300 [get_clocks {vclk_i}]"
+  ],
+  "timing_constraints_unchanged": true,
+  "reason": "HeteroSTA v1.3 rejects -clock_path on set_max_transition. No setup, hold, clock, IO delay, uncertainty or case-analysis constraints removed."
+}

@@ -1,0 +1,2 @@
+nangate.lib
+fakeram45_256x16.lib

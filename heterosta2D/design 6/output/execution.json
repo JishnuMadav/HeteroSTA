@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/jishnu/heterosta_large2d/runs/IP118/resources.txt",
+    "/home/jishnu/heterosta_large2d/bin/run_2d",
+    "/home/jishnu/heterosta_large2d/inputs/IP118",
+    "/home/jishnu/heterosta_large2d/inputs/IP118/libraries.txt",
+    "mempool_group",
+    "/home/jishnu/heterosta_large2d/runs/IP118"
+  ],
+  "returncode": 0,
+  "wall_seconds": 16.221609053900465,
+  "completed_utc": "2026-11-08T13:03:03.208440+00:00",
+  "sha256": {
+    "inputs/IP118/design.v": "46e9f0d2aec39c2a0da2ee4f6a0d08424ec6fbd5969b9d1794361e0c88898781",
+    "inputs/IP118/design.sdc": "94881ccceb4d4652117912b9990c11c68012e3bdef4ef4b1f1176eaf4a7ca942",
+    "inputs/IP118/design.spef": "4207bb896d49d969fdf6d6a2d37dc3fa8b41ced6608dffb3e3cb6f2ae2a55aaa",
+    "bin/run_2d": "bda6e146296d94b4d2b179a97cd39c98fda9a9b9a13b0bbeb32dfd8d1837da8d",
+    "/home/jishnu/heterosta/lib/libheterosta.cpu.so": "3ef50c9b15fe1da2758ef304da8126665fda4dedefafc2dce406294437370142",
+    "sources/technology/nangate.lib": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1"
+  },
+  "threads": 8
+}

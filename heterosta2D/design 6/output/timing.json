@@ -1,0 +1,10 @@
+{
+  "setup_wns": -2152.904297,
+  "setup_tns": -10411335,
+  "hold_wns": 0,
+  "hold_tns": -0,
+  "time_unit": "ps",
+  "library_corner": "typical for EARLY and LATE",
+  "load_seconds": 5.982360302,
+  "compute_seconds": 1.408850494
+}

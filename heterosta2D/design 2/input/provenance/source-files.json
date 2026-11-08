@@ -1,0 +1,86 @@
+[
+  {
+    "file": "sources/ariane133/ariane133.json",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/ariane133.json",
+    "git_blob": "956d0039d94024b9972bb3e1359e71169cd4c85e",
+    "sha256": "89290ef42f6fe54ff925de0a21c9a3d0ad5b6c754a3796c214a1fc0abcbb8c69",
+    "size": 31766
+  },
+  {
+    "file": "sources/ariane133/ariane133.sdc",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/ariane133.sdc",
+    "git_blob": "105cba6bf9ab66972238ed7216c7e8f9ffd0f2cb",
+    "sha256": "48685aa1870c7b67a6036cb778e3a157f17b4e2232dd66a04b6a0ce5e46632aa",
+    "size": 847
+  },
+  {
+    "file": "sources/ariane133/ariane133_netlist.v",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/ariane133_netlist.v",
+    "git_blob": "b8854f941015bcb3950e4b6cbb550c188b9eb85f",
+    "sha256": "56a831af567a80acdb6fdf702cf9cc3a971897c637be7b477e5f91ebb3e6753c",
+    "size": 51251631
+  },
+  {
+    "file": "sources/ariane133/ariane133.def.part_aa",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.def.part_aa",
+    "git_blob": "eae7560099b10ba1b99ffe89dd32ce687cc1b643",
+    "sha256": "f09e352bc5ccbdf14363c6fbe3c7cc288fc77b350672e9ebed4ee3a6b811602c",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.def.part_ab",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.def.part_ab",
+    "git_blob": "c421823d0fe7828e705cd2e3c0b815f2266288be",
+    "sha256": "5ae1f0ad3772f03ecaa39b039805b34fddbcefa6b8efd64bf939199f98aa7c6c",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.def.part_ac",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.def.part_ac",
+    "git_blob": "995021213ecd38a8dba9636c95e6b5b7412d5986",
+    "sha256": "e4ec1999762244c07938502f4cb066986d840d85c5c9dc0b53aa77824fe65d4b",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.def.part_ad",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.def.part_ad",
+    "git_blob": "7da80891ba8fe1e940d074da079f02bcfaa9f19c",
+    "sha256": "2b4ffe19524e35e60ef7419986bcda93697aa91e16e927dd693939cf52b20343",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.def.part_ae",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.def.part_ae",
+    "git_blob": "f280048c0092f841aaad22193b0167051434ad43",
+    "sha256": "44c696c2b99c11d31da8e86fea80af5af86c5590d3c487865ed7fdb50f6b4375",
+    "size": 6195043
+  },
+  {
+    "file": "sources/ariane133/ariane133.gds.part_aa",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.gds.part_aa",
+    "git_blob": "05562755dcfa137619c2ea65c9cdb229579b89e0",
+    "sha256": "5b9519176d567bcbaf89c2a67c6e782bc4b8765e703da971d6e5677d7487077f",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.gds.part_ab",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.gds.part_ab",
+    "git_blob": "17b49a16b38df823e6447f840245d5e2eda36640",
+    "sha256": "997316e73739189441bb17511570c21db136f70cc221a0c297dfc9e36e4692d0",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.gds.part_ac",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.gds.part_ac",
+    "git_blob": "5130ae71b9f7e828a8fe93fbbd91fb63318ba53d",
+    "sha256": "fa6efcdefa3b34274e4c5af332afac7db4873e9e13c985525498379cb9f29216",
+    "size": 52428800
+  },
+  {
+    "file": "sources/ariane133/ariane133.gds.part_ad",
+    "url": "https://raw.githubusercontent.com/SJTU-YONGFU-RESEARCH-GRP/PDB-Physical-Design-Database/9e1e3399b1b707f26fee853bce1ff91ab466ce24/layout/nangate45/ariane133/split/ariane133.gds.part_ad",
+    "git_blob": "42885b3f1db3348f1ea6c0c721c11185be911995",
+    "sha256": "56f985760acfa51e8024b892f26ee4471031a28ce58383add85d4e2ad4174517",
+    "size": 46504148
+  }
+]

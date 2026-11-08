@@ -1,0 +1,6 @@
+{
+  "netlist_changes_exactly_match_recorded_label_mapping": true,
+  "spef_bytes_outside_name_map_identical": true,
+  "rc_payload_sha256": "f99c8d4e39eef554fecc3c17ce612f8fc57b189c4f5021fc28b00f5e3b7fb6e9",
+  "renamed_nets": 20548
+}

@@ -1,0 +1,54 @@
+HeteroSTA license granted to Jishnu Madav (jishnumadav.231ec221@nitk.edu.in). Expires on 2027/01/07 04:07.
+Not for commercial use.
+(LIBUNPARSE) 18 unparsed library-wise items: {"date", "revision", "comment", "technology", "delay_model", "in_place_swap_mode", "library_features", "nom_process", "nom_temperature", "nom_voltage", "voltage_map", "define", "operating_conditions", "default_operating_conditions", "default_leakage_power_density", "default_fanout_load", "wire_load", "default_wire_load"}
+(LIBUNPARSE) 1 unparsed cell-wise items: {"drive_strength"}
+(LIBUNPARSE) 3 unparsed pin-wise items: {"related_power_pin", "related_ground_pin", "nextstate_type"}
+(LIBUNPARSE) 1 unparsed timing-wise items: {"sdf_cond"}
+(LIBUNPARSE) 18 unparsed library-wise items: {"date", "revision", "comment", "technology", "delay_model", "in_place_swap_mode", "library_features", "nom_process", "nom_temperature", "nom_voltage", "voltage_map", "define", "operating_conditions", "default_operating_conditions", "default_leakage_power_density", "default_fanout_load", "wire_load", "default_wire_load"}
+Further warn (LIBUNPARSE) will be suppressed.
+(LIBPARSE_NOM_REF) Library 'fakeram45_256x95': units power is not set, using default value 1e-6 (1uW)
+(LIBPARSE_NOM_REF) Library 'fakeram45_256x95': units power is not set, using default value 1e-6 (1uW)
+(LIBPARSE_NOM_REF) Library 'fakeram45_512x64': units power is not set, using default value 1e-6 (1uW)
+(LIBPARSE_NOM_REF) Library 'fakeram45_512x64': units power is not set, using default value 1e-6 (1uW)
+(LIBPARSE_NOM_REF) Library 'fakeram45_64x15': units power is not set, using default value 1e-6 (1uW)
+Further error (LIBPARSE_NOM_REF) will be suppressed.
+(HETEROSTA_RD_SIZE) num cells = 246570
+(HETEROSTA_RD_SIZE) num nets = 276640
+(HETEROSTA_RD_SIZE) num pins = 802786
+(SPEF_FLAT_COUPL) net clk_i has 11 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net multi_top.me.genblk1_0__bp_cce_top.lce_cce_resp_fifo.mem_1r1w.synth.mem[44] has 9 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net _02286_/lce_cce_data_resp_network.rof_0__fi2_efi3_coherence_network_channel_node.bmr/multi_top.me.network has 9 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net S_sel_p/cce_lce_data_cmd_network.rof_0__fi2_efi3_coherence_network_channel_node.bmr/multi_top.me.network has 3 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net _02570_/cce_lce_data_cmd_network.rof_0__fi2_efi3_coherence_network_channel_node.bmr/multi_top.me.network has 18 foreign coupling keys. w/o SI, turned to grounded caps.
+Further info (SPEF_FLAT_COUPL) will be suppressed.
+(HETEROSTA_RD_SIZE) num RC nodes = 1204823
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+Further warn (LIB_FLATTEN_PINDIRECT_UNK) will be suppressed.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+Further warn (LIB_FLATTEN_TIMING_UNK) will be suppressed.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["NangateOpenCellLibrary", "fakeram45_256x95", "fakeram45_512x64", "fakeram45_64x15", "fakeram45_64x7", "fakeram45_64x96"] to 1203932 bytes of LUT, 140 cell types, 1161 timing arcs, 1328 constraint arcs, 1422 pin types.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["NangateOpenCellLibrary", "fakeram45_256x95", "fakeram45_512x64", "fakeram45_64x15", "fakeram45_64x7", "fakeram45_64x96"] to 1203932 bytes of LUT, 140 cell types, 1161 timing arcs, 1328 constraint arcs, 1422 pin types.
+build_tag_graph num_inputs 1200
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~1428766 tags (0.88987976/pin rf) and 1879038 edges.
+num edges: 1879038
+unique tags: 2
+tag pin maps: 1428766
+build_tag_graph num_inputs 1200
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~1428766 tags (0.88987976/pin rf) and 1879038 edges.
+num edges: 1879038
+unique tags: 2
+tag pin maps: 1428766
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to /home/jishnu/heterosta_large2d/runs/IP111/setup.rpt for the MAX corner
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to /home/jishnu/heterosta_large2d/runs/IP111/hold.rpt for the MIN corner
+Setup WNS=-3407.52 TNS=-4760.03
+Hold WNS=0 TNS=-0

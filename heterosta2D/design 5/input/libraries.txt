@@ -1,0 +1,7 @@
+nangate.lib
+fakeram45_256x96.lib
+fakeram45_32x64.lib
+fakeram45_512x64.lib
+fakeram45_64x15.lib
+fakeram45_64x7.lib
+fakeram45_64x96.lib

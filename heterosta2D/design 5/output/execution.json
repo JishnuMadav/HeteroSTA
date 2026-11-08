@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/usr/bin/time",
+    "-v",
+    "-o",
+    "/home/jishnu/heterosta_large2d/runs/IP114/resources.txt",
+    "/home/jishnu/heterosta_large2d/bin/run_2d",
+    "/home/jishnu/heterosta_large2d/inputs/IP114",
+    "/home/jishnu/heterosta_large2d/inputs/IP114/libraries.txt",
+    "bp_multi_top",
+    "/home/jishnu/heterosta_large2d/runs/IP114"
+  ],
+  "returncode": 0,
+  "wall_seconds": 10.050106517970562,
+  "completed_utc": "2026-11-08T13:02:45.968379+00:00",
+  "sha256": {
+    "inputs/IP114/design.v": "f5788fc664045050c4c88f141ac35ba0fd84ee87eab3cfc21dded8ef62547842",
+    "inputs/IP114/design.sdc": "2ee832501725c0adc5b2be48a9d57c323fc30da155108fb54f7b75ecee2abeed",
+    "inputs/IP114/design.spef": "efa17c5358312bc6a046ae59d343c9d2a08cd24423297843aae5a080a400f944",
+    "bin/run_2d": "bda6e146296d94b4d2b179a97cd39c98fda9a9b9a13b0bbeb32dfd8d1837da8d",
+    "/home/jishnu/heterosta/lib/libheterosta.cpu.so": "3ef50c9b15fe1da2758ef304da8126665fda4dedefafc2dce406294437370142",
+    "sources/technology/nangate.lib": "8d540a4d4cf6d09d27c87ad067857a9c0c2eeb023ab7a56e058cd3113db4e9b1",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_256x96.lib": "549a865aaee23fdb2009c73bc79cadbe91ccc3e5a19dabe8b97ca6512b1fb33f",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_32x64.lib": "78749bfc16598494fb7c10491d96f5e6dbcb155afc8844687bd5c18109d79652",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_512x64.lib": "52bec9c35e3ed922459e336aa0e3f9a9e90c1caff6a6d9fff1743902e00e5dce",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_64x15.lib": "ad3f23637f276d65f8e2b44037a89feee8c4970b866492da8e6150395e6ef5f9",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_64x7.lib": "ba1159fae40f3a57bc261eca0225c2a0453edf911e8a66a427c395dffe84dfe7",
+    "sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lib/fakeram45_64x96.lib": "86fa0230648545219a13bf78e1d9a03892d21f953d63e1702df5beb35417456e"
+  },
+  "threads": 8
+}

@@ -1,0 +1,393 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 4 thread(s).
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/NangateOpenCellLibrary.tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/NangateOpenCellLibrary.macro.mod.lef, created 135 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x16.lef, created 1 library cells
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 745286, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 745702, net _05259_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 745787, net _05251_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759093, net _05249_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759151, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759152, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759183, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759189, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759253, net _05260_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759254, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759255, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759737, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759756, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759778, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 759779, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 760351, net _05260_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 760565, net _05259_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 760710, net _05251_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 760847, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 780511, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 780541, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 780596, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 780650, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888390, net _05247_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888404, net _05248_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888417, net _05249_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888442, net _05250_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888454, net _05251_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888481, net _05252_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888496, net _05253_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888515, net _05255_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888529, net _05257_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888542, net _05259_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888569, net _05260_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888598, net _05261_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888613, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888649, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 888681, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 902277, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 902893, net _05251_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 902894, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 903188, net _05249_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 908572, net _05251_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 908573, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 912407, net _05259_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 917069, net _05249_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 923749, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 924346, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 927802, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 928345, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 933012, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 933277, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 962009, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1026817, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1026818, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1026819, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1026888, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1026889, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1026890, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1183728, net _05260_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1272713, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1273036, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1273037, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 1273038, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2679303, net _05263_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2688615, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2707144, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2736200, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2768612, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2768613, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2768614, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2769151, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2769152, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2772205, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2772808, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773102, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773310, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773311, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773312, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773313, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773541, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2773542, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2787783, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2790512, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2807701, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2808518, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2819454, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2829058, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2829896, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2834589, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2834590, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2834981, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2834982, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2844914, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2844915, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2844916, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2844917, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2847365, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2847366, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2850858, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2864776, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2864888, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2864919, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2864920, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2875564, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2875565, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2875836, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2875837, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2876205, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2876206, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2903556, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2908900, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2908901, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2909030, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2909057, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2909960, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2909961, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2925669, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2925670, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2925671, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2926879, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2927241, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2927650, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2927651, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2927652, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2927653, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928014, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928864, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928865, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928866, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928867, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928868, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2928869, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2930260, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 2966218, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3042093, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3042374, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3086648, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3102487, net _05249_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3102488, net _05249_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3102657, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3104349, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3107156, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3107971, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3111715, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3112621, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3117783, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3117784, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3117785, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3118033, net _05267_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3143075, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3143076, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3143077, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3425912, net _05260_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 3425913, net _05265_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6320694, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6709482, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6882252, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6882253, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6884064, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6884065, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6909744, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6909745, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6909746, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6909747, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6909748, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6913046, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 6913047, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7055552, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7061193, net _05251_ not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7073511, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7077276, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7110262, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7153179, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7154946, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7154947, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7154948, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7154949, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7154950, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7154951, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7214986, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7214987, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7233804, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7234009, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7234225, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7234226, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 7595255, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8386528, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8386727, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8388580, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8388723, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8398511, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8405466, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8432507, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8432942, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8433754, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8433755, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8435835, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8436930, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8436931, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8437869, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8437870, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8438265, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8440666, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8443023, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8443024, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8549220, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8557417, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8578753, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8578754, net asid_csr_ex not found.
+[WARNING STA-1650] /home/jishnu/heterosta_large2d/inputs/IP109/design.spef line 8583051, net asid_csr_ex not found.
+worst slack max 0.03
+worst slack min 0.05
+Startpoint: ex_stage_i/i_mult.i_div.res_q[27]$_DFFE_PN0P_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: ex_stage_i/i_mult.i_div.res_q[28]$_DFFE_PN0P_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk_i (in)
+   0.04    0.04 ^ wire1/Z (BUF_X8)
+   0.05    0.09 ^ clkbuf_regs_0_core_clock/Z (CLKBUF_X3)
+   0.06    0.15 ^ clkbuf_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.21 ^ clkbuf_1_1_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.27 ^ clkbuf_2_3_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.32 ^ clkbuf_3_6_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.38 ^ clkbuf_4_12_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.45 ^ clkbuf_6_50_0_clk_i_regs/Z (CLKBUF_X3)
+   0.07    0.51 ^ clkbuf_9_405_0_clk_i_regs/Z (CLKBUF_X3)
+   0.00    0.52 ^ ex_stage_i/i_mult.i_div.res_q[27]$_DFFE_PN0P_/CK (DFFR_X1)
+   0.08    0.60 ^ ex_stage_i/i_mult.i_div.res_q[27]$_DFFE_PN0P_/QN (DFFR_X1)
+   0.02    0.62 v ex_stage_i/_24809_/ZN (OAI21_X1)
+   0.00    0.62 v ex_stage_i/i_mult.i_div.res_q[28]$_DFFE_PN0P_/D (DFFR_X1)
+           0.62   data arrival time
+
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk_i (in)
+   0.04    0.04 ^ wire1/Z (BUF_X8)
+   0.05    0.09 ^ clkbuf_regs_0_core_clock/Z (CLKBUF_X3)
+   0.06    0.15 ^ clkbuf_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.21 ^ clkbuf_1_1_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.27 ^ clkbuf_2_3_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.32 ^ clkbuf_3_6_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.38 ^ clkbuf_4_12_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.45 ^ clkbuf_6_50_0_clk_i_regs/Z (CLKBUF_X3)
+   0.07    0.51 ^ clkbuf_9_405_0_clk_i_regs/Z (CLKBUF_X3)
+   0.05    0.56 ^ clkbuf_leaf_2774_clk_i_regs/Z (CLKBUF_X3)
+   0.00    0.56 ^ ex_stage_i/i_mult.i_div.res_q[28]$_DFFE_PN0P_/CK (DFFR_X1)
+   0.00    0.56   clock reconvergence pessimism
+   0.01    0.57   library hold time
+           0.57   data required time
+---------------------------------------------------------
+           0.57   data required time
+          -0.62   data arrival time
+---------------------------------------------------------
+           0.05   slack (MET)
+
+
+Startpoint: issue_stage_i.i_scoreboard/commit_pointer_q[0]$_DFF_PN0_
+            (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: issue_stage_i.i_scoreboard/mem_q[2004]$_DFF_PN0_
+          (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock core_clock (rise edge)
+   0.00    0.00   clock source latency
+   0.00    0.00 ^ clk_i (in)
+   0.04    0.04 ^ wire1/Z (BUF_X8)
+   0.05    0.09 ^ clkbuf_regs_0_core_clock/Z (CLKBUF_X3)
+   0.06    0.15 ^ clkbuf_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.21 ^ clkbuf_1_0_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.27 ^ clkbuf_2_0_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    0.33 ^ clkbuf_3_1_0_clk_i_regs/Z (CLKBUF_X3)
+   0.05    0.38 ^ clkbuf_4_3_0_clk_i_regs/Z (CLKBUF_X3)
+   0.07    0.46 ^ clkbuf_6_15_0_clk_i_regs/Z (CLKBUF_X3)
+   0.07    0.53 ^ clkbuf_9_125_0_clk_i_regs/Z (CLKBUF_X3)
+   0.04    0.57 ^ clkbuf_leaf_3296_clk_i_regs/Z (CLKBUF_X3)
+   0.00    0.57 ^ issue_stage_i.i_scoreboard/commit_pointer_q[0]$_DFF_PN0_/CK (DFFR_X2)
+   0.14    0.71 ^ issue_stage_i.i_scoreboard/commit_pointer_q[0]$_DFF_PN0_/Q (DFFR_X2)
+   0.05    0.76 ^ issue_stage_i.i_scoreboard/_59705_/CO (HA_X1)
+   0.07    0.83 ^ issue_stage_i.i_scoreboard/_30990_/ZN (AND2_X4)
+   0.09    0.91 ^ place52786/Z (BUF_X2)
+   0.02    0.94 v issue_stage_i.i_scoreboard/_33845_/ZN (AOI21_X1)
+   0.04    0.98 ^ issue_stage_i.i_scoreboard/_33846_/ZN (AOI21_X1)
+   0.02    0.99 v issue_stage_i.i_scoreboard/_33847_/ZN (OAI21_X1)
+   0.06    1.06 v issue_stage_i.i_scoreboard/_33848_/Z (MUX2_X1)
+   0.06    1.11 v issue_stage_i.i_scoreboard/_33849_/Z (MUX2_X1)
+   0.06    1.17 v issue_stage_i.i_scoreboard/_33850_/Z (MUX2_X1)
+   0.08    1.25 v issue_stage_i.i_scoreboard/_33851_/Z (MUX2_X2)
+   0.05    1.30 v _05274_/ZN (AND2_X1)
+   0.02    1.32 ^ _05276_/ZN (OAI21_X1)
+   0.02    1.34 v _05277_/ZN (AOI21_X1)
+   0.05    1.39 ^ _05282_/ZN (AOI22_X1)
+   0.02    1.41 v _05323_/ZN (NOR2_X1)
+   0.07    1.48 ^ _05324_/ZN (NOR3_X1)
+   0.05    1.53 ^ _05325_/ZN (OR2_X4)
+   0.02    1.55 v _09433_/ZN (NOR3_X1)
+   0.03    1.58 v place50025/Z (BUF_X2)
+   0.11    1.70 v csr_regfile_i/_07781_/ZN (OR4_X4)
+   0.05    1.75 v csr_regfile_i/_07782_/ZN (OR2_X4)
+   0.04    1.79 ^ csr_regfile_i/_10092_/ZN (AOI21_X2)
+   0.06    1.85 ^ csr_regfile_i/_10098_/ZN (AND3_X1)
+   0.02    1.87 v csr_regfile_i/_10119_/ZN (AOI21_X2)
+   0.05    1.92 ^ csr_regfile_i/_12202_/ZN (NOR2_X1)
+   0.03    1.95 ^ csr_regfile_i/_12210_/ZN (OR2_X2)
+   0.03    1.98 v _05340_/ZN (NAND3_X2)
+   0.05    2.03 v _09542_/ZN (AND2_X4)
+   0.06    2.09 ^ _09584_/ZN (AOI22_X1)
+   0.02    2.11 v _09585_/ZN (NOR2_X1)
+   0.13    2.23 ^ csr_regfile_i/_12730_/ZN (NOR4_X1)
+   0.04    2.27 v csr_regfile_i/_12732_/ZN (NAND4_X1)
+   0.07    2.35 ^ csr_regfile_i/_12733_/ZN (NOR3_X1)
+   0.02    2.36 v csr_regfile_i/_12758_/ZN (INV_X1)
+   0.09    2.46 v csr_regfile_i/_12759_/ZN (OR4_X4)
+   0.04    2.50 ^ csr_regfile_i/_15107_/ZN (OAI21_X2)
+   0.02    2.52 v _05353_/ZN (NOR3_X1)
+   0.03    2.55 ^ _05354_/ZN (NAND2_X4)
+   0.03    2.58 v ex_stage_i/_21292_/ZN (INV_X2)
+   0.02    2.61 ^ ex_stage_i/_31273_/ZN (OAI21_X1)
+   0.02    2.63 v ex_stage_i/_31274_/ZN (NAND2_X1)
+   0.04    2.67 v ex_stage_i/_32166_/ZN (AND2_X4)
+   0.13    2.79 ^ ex_stage_i/_33900_/Z (MUX2_X2)
+   0.09    2.88 ^ place47116/Z (BUF_X2)
+   0.06    2.95 v issue_stage_i.i_scoreboard/_56964_/Z (MUX2_X1)
+   0.04    2.98 ^ issue_stage_i.i_scoreboard/_56965_/ZN (NOR2_X1)
+   0.04    3.02 v issue_stage_i.i_scoreboard/_56973_/ZN (OAI221_X2)
+   0.05    3.08 v issue_stage_i.i_scoreboard/_58188_/ZN (XNOR2_X1)
+   0.10    3.17 ^ issue_stage_i.i_scoreboard/_58198_/ZN (NOR4_X2)
+   0.05    3.22 v issue_stage_i.i_scoreboard/_58199_/ZN (OAI211_X4)
+   0.05    3.27 ^ issue_stage_i.i_scoreboard/_58373_/ZN (OAI21_X4)
+   0.04    3.31 ^ issue_stage_i.i_scoreboard/_58518_/ZN (AND2_X2)
+   0.03    3.34 v issue_stage_i.i_scoreboard/_59524_/ZN (OAI21_X1)
+   0.06    3.40 ^ issue_stage_i.i_scoreboard/_59536_/ZN (AOI22_X2)
+   0.02    3.42 v issue_stage_i.i_issue_read_operands/_15612_/ZN (INV_X2)
+   0.03    3.45 v issue_stage_i.i_issue_read_operands/_15613_/ZN (AND2_X4)
+   0.12    3.57 v issue_stage_i.i_issue_read_operands/_15614_/ZN (OR4_X4)
+   0.05    3.62 ^ issue_stage_i.i_issue_read_operands/_15616_/ZN (AOI21_X4)
+   0.04    3.67 ^ issue_stage_i.i_scoreboard/_29719_/ZN (AND2_X2)
+   0.09    3.76 v issue_stage_i.i_scoreboard/_29720_/ZN (NAND4_X4)
+   0.09    3.85 ^ issue_stage_i.i_scoreboard/_29848_/Z (MUX2_X2)
+   0.02    3.87 v issue_stage_i.i_scoreboard/_41101_/ZN (AOI21_X1)
+   0.08    3.95 ^ issue_stage_i.i_scoreboard/_41102_/ZN (AOI221_X1)
+   0.06    4.02 v issue_stage_i.i_scoreboard/_41105_/ZN (OAI222_X2)
+   0.12    4.14 v issue_stage_i.i_scoreboard/_41107_/ZN (OR4_X4)
+   0.05    4.19 v issue_stage_i.i_scoreboard/_41241_/ZN (AND3_X4)
+   0.13    4.32 ^ issue_stage_i.i_scoreboard/_45753_/ZN (OAI21_X4)
+   0.07    4.39 ^ place46589/Z (BUF_X2)
+   0.02    4.40 v issue_stage_i.i_scoreboard/_46172_/ZN (AOI21_X1)
+   0.08    4.48 ^ issue_stage_i.i_scoreboard/_46177_/ZN (AOI221_X1)
+   0.00    4.48 ^ issue_stage_i.i_scoreboard/mem_q[2004]$_DFF_PN0_/D (DFFR_X1)
+           4.48   data arrival time
+
+   4.00    4.00   clock core_clock (rise edge)
+   0.00    4.00   clock source latency
+   0.00    4.00 ^ clk_i (in)
+   0.04    4.04 ^ wire1/Z (BUF_X8)
+   0.05    4.09 ^ clkbuf_regs_0_core_clock/Z (CLKBUF_X3)
+   0.06    4.15 ^ clkbuf_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    4.21 ^ clkbuf_1_0_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    4.27 ^ clkbuf_2_0_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    4.33 ^ clkbuf_3_0_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    4.39 ^ clkbuf_4_1_0_clk_i_regs/Z (CLKBUF_X3)
+   0.07    4.46 ^ clkbuf_6_6_0_clk_i_regs/Z (CLKBUF_X3)
+   0.06    4.52 ^ clkbuf_9_55_0_clk_i_regs/Z (CLKBUF_X3)
+   0.04    4.55 ^ clkbuf_leaf_410_clk_i_regs/Z (CLKBUF_X3)
+   0.00    4.55 ^ issue_stage_i.i_scoreboard/mem_q[2004]$_DFF_PN0_/CK (DFFR_X1)
+   0.00    4.55   clock reconvergence pessimism
+  -0.04    4.51   library setup time
+           4.51   data required time
+---------------------------------------------------------
+           4.51   data required time
+          -4.48   data arrival time
+---------------------------------------------------------
+           0.03   slack (MET)
+
+

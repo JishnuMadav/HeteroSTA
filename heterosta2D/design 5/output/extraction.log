@@ -1,0 +1,69 @@
+OpenROAD 26Q2-1164-g08f67ee5ec 
+Features included (+) or not (-): +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ORD-0030] Using 4 thread(s).
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/NangateOpenCellLibrary.tech.lef, created 22 layers, 27 vias
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/NangateOpenCellLibrary.macro.mod.lef, created 135 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_1024x32.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_128x116.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_128x256.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_128x32.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_128x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_2048x39.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x16.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x32.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x34.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x48.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x95.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_256x96.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_32x32.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_32x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_512x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x124.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x15.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x21.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x25.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x256.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x28.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x32.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x62.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x64.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x7.lef, created 1 library cells
+[INFO ODB-0227] LEF file: /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/lef/fakeram45_64x96.lef, created 1 library cells
+[INFO ODB-0127] Reading DEF file: /home/jishnu/heterosta_large2d/sources/pdb/IP114/routed.def
+[INFO ODB-0128] Design: bp_multi_top
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0097] 		Created 100000 Nets
+[INFO ODB-0130]     Created 1453 pins.
+[INFO ODB-0131]     Created 341055 components and 1100046 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 682110 connections.
+[INFO ODB-0133]     Created 140561 nets and 415063 connections.
+[INFO ODB-0134] Finished DEF file: /home/jishnu/heterosta_large2d/sources/pdb/IP114/routed.def
+ROUTING_AUDIT {"ip": "IP114", "top": "bp_multi_top", "physical_instances": 341055, "timed_instances": 124378, "macro_instances": 26, "signal_nets": 140561, "nets_with_routed_wire": 125823, "unwired_zero_or_one_pin": 14738, "multi_pin_without_routed_wire": 0, "source_def_sha256": "cd187ddf61cb0df8ef3c9ec219aaae6137cb693ba1e4dd550b93bb9d42834d51"}
+[WARNING STA-2065] The -sort flag is ignored.
+[INFO RCX-0431] Defined process_corner typical with ext_model_index 0
+[INFO RCX-0029] Defined extraction corner typical
+[INFO RCX-0435] Reading extraction model file /home/jishnu/heterosta_large2d/sources/archgen/IPs/IP-PD/_shared/platform/nangate45/rcx_patterns.rules ...
+[INFO RCX-0436] RC segment generation bp_multi_top (max_merge_res 50.0) ...
+[INFO RCX-0040] Final 523711 rc segments
+[INFO RCX-0439] Coupling Cap extraction bp_multi_top ...
+[INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
+[INFO RCX-0442] 8% of 810666 wires extracted
+[INFO RCX-0442] 14% of 810666 wires extracted
+[INFO RCX-0442] 22% of 810666 wires extracted
+[INFO RCX-0442] 30% of 810666 wires extracted
+[INFO RCX-0442] 38% of 810666 wires extracted
+[INFO RCX-0442] 45% of 810666 wires extracted
+[INFO RCX-0442] 59% of 810666 wires extracted
+[INFO RCX-0442] 67% of 810666 wires extracted
+[INFO RCX-0442] 75% of 810666 wires extracted
+[INFO RCX-0442] 84% of 810666 wires extracted
+[INFO RCX-0442] 93% of 810666 wires extracted
+[INFO RCX-0442] 100% of 810666 wires extracted
+[INFO RCX-0045] Extract 140561 nets, 649534 rsegs, 649534 caps, 1277948 ccs
+[INFO RCX-0042] 100000 nets finished
+[INFO RCX-0443] 140561 nets finished
+EXTRACTION_COMPLETE IP114 59.73930723196827

@@ -1,0 +1,57 @@
+HeteroSTA license granted to Jishnu Madav (jishnumadav.231ec221@nitk.edu.in). Expires on 2027/01/07 04:07.
+Not for commercial use.
+(LIBUNPARSE) 18 unparsed library-wise items: {"date", "revision", "comment", "technology", "delay_model", "in_place_swap_mode", "library_features", "nom_process", "nom_temperature", "nom_voltage", "voltage_map", "define", "operating_conditions", "default_operating_conditions", "default_leakage_power_density", "default_fanout_load", "wire_load", "default_wire_load"}
+(LIBUNPARSE) 1 unparsed cell-wise items: {"drive_strength"}
+(LIBUNPARSE) 3 unparsed pin-wise items: {"related_power_pin", "related_ground_pin", "nextstate_type"}
+(LIBUNPARSE) 1 unparsed timing-wise items: {"sdf_cond"}
+(LIBUNPARSE) 18 unparsed library-wise items: {"date", "revision", "comment", "technology", "delay_model", "in_place_swap_mode", "library_features", "nom_process", "nom_temperature", "nom_voltage", "voltage_map", "define", "operating_conditions", "default_operating_conditions", "default_leakage_power_density", "default_fanout_load", "wire_load", "default_wire_load"}
+Further warn (LIBUNPARSE) will be suppressed.
+(NL_SV_MOREPIN) there turns out to be more logic pin (net) than expected -- typically because there are nets undefined but used. It is not suggested to do so because this will lead to long construction time.
+(NL_SV_NETIO_UNDRIV) There are 26 nets without driving pins.
+(HETEROSTA_RD_SIZE) num cells = 158268
+(HETEROSTA_RD_SIZE) num nets = 173589
+(HETEROSTA_RD_SIZE) num pins = 536365
+(SPEF_FLAT_COUPL) net clk_i has 9 foreign coupling keys. w/o SI, turned to grounded caps.(SPEF_FLAT_COUPL) net _11601_/gen_tiles[0].i_tile.i_tile has 3 foreign coupling keys. w/o SI, turned to grounded caps.(SPEF_FLAT_COUPL) net _05470_/gen_tiles[0].i_tile.i_tile has 9 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_COUPL) net net107352 has 15 foreign coupling keys. w/o SI, turned to grounded caps.
+
+
+Further info (SPEF_FLAT_COUPL) will be suppressed.
+(SPEF_FLAT_COUPL) net data[26]/gen_prefetcher[1].i_snitch_icache_l0/gen_caches[0].i_snitch_icache/gen_tiles[0].i_tile.i_tile has 5 foreign coupling keys. w/o SI, turned to grounded caps.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_184_"]), None, None, None) has unexpected # of IO pins, 2 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_185_"]), None, None, None) has unexpected # of IO pins, 2 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_186_"]), None, None, None) has unexpected # of IO pins, 3 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_187_"]), None, None, None) has unexpected # of IO pins, 3 while should be 0.
+(SPEF_FLAT_BAD) SPEF net SPEFHierPortPinRef(HierName(["_188_"]), None, None, None) has unexpected # of IO pins, 2 while should be 0.
+Further error (SPEF_FLAT_BAD) will be suppressed.
+(HETEROSTA_RD_SIZE) num RC nodes = 832068
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+(LIB_FLATTEN_PINDIRECT_UNK) lib pin IQ has unsupported direction internal, setting 0.5 delay threshold.
+Further warn (LIB_FLATTEN_PINDIRECT_UNK) will be suppressed.
+(LIB_FLATTEN_TIMING_UNK) unsupported liberty timing/constraint arc: min_pulse_width
+Further warn (LIB_FLATTEN_TIMING_UNK) will be suppressed.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["NangateOpenCellLibrary"] to 1157452 bytes of LUT, 135 cell types, 884 timing arcs, 130 constraint arcs, 541 pin types.
+(LIB_FLATTEN_DONE) flattened liberty file(s) ["NangateOpenCellLibrary"] to 1157452 bytes of LUT, 135 cell types, 884 timing arcs, 130 constraint arcs, 541 pin types.
+(STA_LVL_DEAD_PIN) There are 22 dead pin(s) in design (with neither inputs nor outputs).
+build_tag_graph num_inputs 20
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~1557142 tags (1.4515693/pin rf) and 2225306 edges.
+num edges: 2225306
+unique tags: 3
+tag pin maps: 1557142
+build_tag_graph num_inputs 20
+(PBAGRAPH_COMPILE_OK) tag graph compiled to ~1557142 tags (1.4515693/pin rf) and 2225306 edges.
+num edges: 2225306
+unique tags: 3
+tag pin maps: 1557142
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to /home/jishnu/heterosta_large2d/runs/IP118/setup.rpt for the MAX corner
+(HETEROSTA_DUMP_PATHS) Dumping timing report...
+(HETEROSTA_DUMP_PATHS_SUCCESS) Timing paths successfully dumped to /home/jishnu/heterosta_large2d/runs/IP118/hold.rpt for the MIN corner
+Setup WNS=-2152.9 TNS=-1.04113e+07
+Hold WNS=0 TNS=-0

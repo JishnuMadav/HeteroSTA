@@ -1,0 +1,40 @@
+{
+  "functional_instance_count": 158268,
+  "functional_cell_types": 97,
+  "library_coverage_passed": true,
+  "sdc_unchanged": false,
+  "timing_constraints_preserved": true,
+  "routing_multi_pin_without_wire": 0,
+  "extracted_parasitics": {
+    "spef_nets": 161732,
+    "nets_with_positive_capacitance": 161732,
+    "capacitors": 4217476,
+    "resistors": 670386
+  },
+  "timer_loaded_counts": {
+    "cells": 158268,
+    "nets": 173589,
+    "pins": 536365,
+    "RC nodes": 832068
+  },
+  "log_message_codes": {
+    "LIBUNPARSE": 5,
+    "NL_SV_MOREPIN": 1,
+    "NL_SV_NETIO_UNDRIV": 1,
+    "HETEROSTA_RD_SIZE": 4,
+    "SPEF_FLAT_COUPL": 3,
+    "SPEF_FLAT_BAD": 5,
+    "LIB_FLATTEN_PINDIRECT_UNK": 5,
+    "LIB_FLATTEN_TIMING_UNK": 5,
+    "LIB_FLATTEN_DONE": 2,
+    "STA_LVL_DEAD_PIN": 1,
+    "PBAGRAPH_COMPILE_OK": 2,
+    "HETEROSTA_DUMP_PATHS": 2,
+    "HETEROSTA_DUMP_PATHS_SUCCESS": 2
+  },
+  "clock_definitions": [
+    "create_clock -name clk_i -period 3.0000 [get_ports {clk_i}]",
+    "create_clock -name vclk_i -period 3.0000 "
+  ],
+  "source_def_sha256": "19b0e91053106d724613982b41a0a910ce6d05c61aad45ceb93d2834869ca2d3"
+}
